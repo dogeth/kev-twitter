@@ -4226,3 +4226,27 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Completed in 14ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:25:10) [GET]
+  [4;36;1mTweet Load (0.8ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 86ms (View: 79, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:26:27) [GET]
+  [4;35;1mTweet Load (0.8ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/tweets]
