@@ -1,0 +1,2824 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-04-10 09:37:57) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 63ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/rails/info/properties]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTweets (20100409234209)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE TABLE "tweets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" varchar(255), "user" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100409234209')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("tweets")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:09) [GET]
+  Parameters: {"category"=>"ab_home_page", "log"=>"{\"event_name\":\"toptweets_success\"}", "ts"=>"1270856829723"}
+
+ActionController::RoutingError (No route matches "/scribe" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:43) [GET]
+
+ActionController::RoutingError (No route matches "/tweet" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+Rendering tweets/index
+Completed in 127ms (View: 125, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/health_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_politics_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Twitter-template3_NR_ICON_normal.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Magnum_Logo_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/n700068668_5523_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/polaroidJ_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/tw_farrah3_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterBugTEDTalks_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/P2140452_sm2_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Butterfly_cover_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterLogo_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Photo_206_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/green_8559_Lessig_Icon_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/dick_profile_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fbtimes_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/moheadshot_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/80717_6_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/avatar_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/11169_529512136889_61802035_31318642_4560547_n_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/DSC_0044_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cover__email__normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Grubes69_Twitter_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cliff.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Riley_Jonas1_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/HS_FL_TOUR_SQUARE_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_logo_s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:47:48) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+Rendering tweets/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/health_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_politics_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Twitter-template3_NR_ICON_normal.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Magnum_Logo_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/n700068668_5523_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterLogo_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/11169_529512136889_61802035_31318642_4560547_n_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/polaroidJ_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterBugTEDTalks_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/dick_profile_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Butterfly_cover_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/tw_farrah3_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Photo_206_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/green_8559_Lessig_Icon_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/DSC_0044_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fbtimes_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/moheadshot_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/80717_6_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/avatar_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/P2140452_sm2_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cover__email__normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Grubes69_Twitter_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cliff.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Riley_Jonas1_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/HS_FL_TOUR_SQUARE_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_logo_s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:55) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+Rendering tweets/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/health_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_politics_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Twitter-template3_NR_ICON_normal.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Magnum_Logo_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/n700068668_5523_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterLogo_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Photo_206_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterBugTEDTalks_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/dick_profile_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Butterfly_cover_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/tw_farrah3_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/polaroidJ_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/green_8559_Lessig_Icon_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/P2140452_sm2_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fbtimes_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/moheadshot_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/80717_6_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/11169_529512136889_61802035_31318642_4560547_n_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/DSC_0044_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cover__email__normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Grubes69_Twitter_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cliff.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/avatar_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Riley_Jonas1_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/HS_FL_TOUR_SQUARE_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_logo_s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:50:00) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+Rendering tweets/index
+Completed in 33ms (View: 31, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/health_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:06) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_politics_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterLogo_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Butterfly_cover_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Magnum_Logo_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/widget.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/n700068668_5523_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Twitter-template3_NR_ICON_normal.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/polaroidJ_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/TwitterBugTEDTalks_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/dick_profile_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/tw_farrah3_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Photo_206_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/green_8559_Lessig_Icon_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/P2140452_sm2_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fbtimes_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/moheadshot_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Grubes69_Twitter_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/avatar_normal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/DSC_0044_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/fronts.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cover__email__normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/80717_6_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Cliff.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/11169_529512136889_61802035_31318642_4560547_n_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/Riley_Jonas1_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/HS_FL_TOUR_SQUARE_small_normal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/twitter_logo_s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:52:08) [GET]
+
+ActionController::RoutingError (No route matches "/Twitter_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+Rendering tweets/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geo-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/buttons_new-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter_logo_header.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/default_profile_add_photo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/Photo_43_mini.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
+Rendering tweets/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+Rendering tweets/index
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
+
+ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:54:36) [GET]
+Rendering tweets/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
+Rendering tweets/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
+
+ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
+
+ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
+Rendering tweets/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:18) [GET]
+
+ActionController::RoutingError (No route matches "/mock/geo-https.css%5C" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+Rendering tweets/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
+Rendering tweets/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+Rendering tweets/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geo-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/buttons_new-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following-https.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/loader.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter_logo_header.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/default_profile_add_photo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/spinner.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/Photo_43_mini.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
+
+ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
+Rendering tweets/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
