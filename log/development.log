@@ -4111,3 +4111,118 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Completed in 13ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:12:35) [GET]
+  [4;35;1mTweet Load (0.7ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:12:38) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
+  [4;36;1mTweet Load (0.5ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:17:23) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
+  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+
+ActionView::TemplateError (`@#<Tweet:0x104119888>' is not allowed as an instance variable name) on line #1 of app/views/tweets/index.html.erb:
+1: <%= error_messages_for @tweet%>
+2: 
+3: <% form_for @tweet do |f| -%>
+4:   <%= f.label :message, "What's happening" %>
+
+    app/views/tweets/index.html.erb:1
+    app/controllers/tweets_controller.rb:14:in `create'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:17:28) [GET]
+  [4;36;1mTweet Load (0.8ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+
+ActionView::TemplateError (`@#<Tweet:0x10427cd38>' is not allowed as an instance variable name) on line #1 of app/views/tweets/index.html.erb:
+1: <%= error_messages_for @tweet%>
+2: 
+3: <% form_for @tweet do |f| -%>
+4:   <%= f.label :message, "What's happening" %>
+
+    app/views/tweets/index.html.erb:1
+
+Rendered rescues/_trace (128.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:18:02) [GET]
+  [4;35;1mTweet Load (0.9ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:05) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
+  [4;36;1mTweet Load (0.5ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 23ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:25) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>"asdf"}}
+  [4;35;1mTweet Load (0.5ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:28) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"asdf", "message"=>"asdf"}}
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 05:18:28', '2010-04-10 05:18:28', 'asdf', 'asdf')[0m
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:18:28) [GET]
+  [4;35;1mTweet Load (0.8ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]

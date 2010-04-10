@@ -1,4 +1,6 @@
-<% form_for Tweet.new do |f| -%>
+<%= error_messages_for :tweet %>
+
+<% form_for @tweet do |f| -%>
   <%= f.label :message, "What's happening" %>
   <%= f.text_field :message %>
   <%= f.label :user, "User" %>	

@@ -1,6 +1,3 @@
 class Tweet < ActiveRecord::Base
-  
-  def fred
-  end
-  
+  validates_presence_of :user, :message
 end
