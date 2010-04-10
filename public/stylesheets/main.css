@@ -1,0 +1,134 @@
+    body {
+      font-family: "Helvetica", "Verdana", "Arial", sans-serif;
+      color: #222;
+      background: #222;
+    }
+    
+    a, a:link, a:visited {
+      color: #073B70;
+      text-decoration: none;
+    }
+    
+    a:hover, a:visited:hover {
+      color: #0D6DD0;
+      text-decoration: underline;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    #header h1 a {
+      color: #fff !important;
+    }
+    
+    #wrap {
+      width: 1000px;
+      padding: 20px 0;
+      margin: 0 auto;
+    }
+    
+    #header {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    #header ul {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #fff;
+      padding: 5px 8px;
+      -webkit-border-radius: 5px;
+    }
+    
+    #header ul a {
+      display: block;
+      float: left;
+      padding: 3px 10px;
+      margin-left: 5px;
+      text-align: center;
+      -webkit-border-radius: 5px;
+      -webkit-transition: all 0.1s linear;
+    }
+    
+    #header ul li:first-child a {
+      margin-left: 0;
+    }
+    
+    #header ul a:hover {
+      color: #fff;
+      background: #073B70;
+      text-decoration: none;
+    }
+    
+    #header ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      float: left;
+    }
+    #header, #footer {
+      padding: 0 20px;
+    }
+    
+    #content {
+      background: #fff;
+      -webkit-border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    #main {
+      width: 710px;
+      float: left;
+      padding: 20px;
+    }
+    
+    #sidebar {
+      background: #ddd;
+      width: 210px;
+      margin-left: 750px;
+      padding: 20px;
+      height: 100%;
+    }
+    
+    #footer {
+      margin-top: 10px;
+      color: #999;
+      font-size: 11px;
+    }
+    
+    ol.tweets {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    ol.tweets li {
+      margin: 0;
+      padding: 0;
+      border-bottom: solid 1px #ccc;
+      padding: 1em 0;
+    }
+    
+    ol.tweets li:hover {
+      background: #ddd;
+    }
+    
+    ol.tweets li img {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    ol.tweets li a {
+      font-weight: bold;
+    }
+    
+    .clear {
+      clear: both;
+    }
+    
+    hr.clear {
+      border: none;
+    }

@@ -1,0 +1,28 @@
+<ul>
+	<li>
+		<a href="/">Home</a>
+	</li>
+	<li>
+		<a href="#">Search</a>
+	</li>
+	<%if current_user -%>
+	<li>
+		<a href="#"><%=h current_user %></a>
+	</li>
+	<li>
+		<%= link_to "logout", "/session/logout" %>
+	</li>
+	
+	<%else -%>
+	<li>
+		<a href="#">Register</a>
+	</li>
+	<li>
+		<form action="/session/login" method="post">
+		      <input id="user" name="user" size="10" type="text" />
+		      <input name="login" type="submit" value="Login" />
+		    </form>
+
+	</li>
+	<%end%>
+</ul>
