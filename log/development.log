@@ -1237,7 +1237,7 @@ Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/tweets]
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.css" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1245,7 +1245,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/geo-https.css" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1253,7 +1253,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/buttons_new-https.css" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1261,7 +1261,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/following-https.css" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1269,7 +1269,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1277,7 +1277,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/loader.gif" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1285,7 +1285,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter_logo_header.png" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1293,7 +1293,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1301,7 +1301,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1309,7 +1309,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1317,7 +1317,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1325,7 +1325,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1333,7 +1333,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/spinner.gif" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1341,7 +1341,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1349,7 +1349,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1357,7 +1357,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1365,7 +1365,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1373,7 +1373,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1381,7 +1381,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1389,7 +1389,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1397,7 +1397,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1405,7 +1405,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1413,7 +1413,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:41) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1421,7 +1421,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1429,7 +1429,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/default_profile_add_photo.png" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1437,7 +1437,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/Photo_43_mini.jpg" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1445,7 +1445,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1453,7 +1453,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1461,7 +1461,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1469,7 +1469,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1477,7 +1477,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1485,7 +1485,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1493,7 +1493,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1501,7 +1501,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1509,7 +1509,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1517,7 +1517,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1525,7 +1525,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1533,7 +1533,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1541,7 +1541,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1549,7 +1549,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1557,7 +1557,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1565,7 +1565,7 @@ Rendering rescues/layout (not_found)
 
 Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:53:42) [GET]
 
-ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
+ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
   
 
 Rendering rescues/layout (not_found)
@@ -1576,2648 +1576,218 @@ Rendering tweets/index
 Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-Rendering tweets/index
-Completed in 20ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-
-ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-
-ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-
-ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:34) [GET]
-
-ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:54:35) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:54:36) [GET]
-Rendering tweets/index
-Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
-Rendering tweets/index
-Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
-
-ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:34) [GET]
-
-ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:55:36) [GET]
-Rendering tweets/index
-Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:18) [GET]
-
-ActionController::RoutingError (No route matches "/mock/geo-https.css%5C" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-Rendering tweets/index
-Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/geo-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/buttons_new-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/following-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/util.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/jquery_002.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/twitter-https.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/jquery.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:30) [GET]
-
-ActionController::RoutingError (No route matches "/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/spinner.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/loader.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_logo_header.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/default_profile_add_photo.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/Photo_43_mini.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-
-ActionController::RoutingError (No route matches "/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:56:31) [GET]
-Rendering tweets/index
-Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-Rendering tweets/index
-Completed in 17ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/geo-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/buttons_new-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/following-https.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/util.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/loader.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter_logo_header.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery_002.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/twitter-https.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/jquery.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/js.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/default_profile_add_photo.png" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/main.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/spinner.gif" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/Photo_43_mini.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/gears_init.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/geov1.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/following.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/mustache.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/dismissable.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/api.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/controls.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:30) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/hover_cards.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/email_confirmation.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
-
-ActionController::RoutingError (No route matches "/ausdogeth_files/ga.js" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 09:59:31) [GET]
-Rendering tweets/index
-Completed in 2ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:03:00) [GET]
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:11:17) [GET]
+  [4;35;1mTweet Load (1.1ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
-Completed in 31ms (View: 29, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:03:01) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:03:01) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:03:01) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#show (for 127.0.0.1 at 2010-04-10 11:03:14) [GET]
-  Parameters: {"id"=>"fred"}
-
-ActionController::UnknownAction (No action responded to show. Actions: ):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#show (for 127.0.0.1 at 2010-04-10 11:03:44) [GET]
-  Parameters: {"id"=>"fred"}
-
-ActionController::UnknownAction (No action responded to show. Actions: ):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#show (for 127.0.0.1 at 2010-04-10 11:04:01) [GET]
-  Parameters: {"id"=>"fred"}
-
-ActionController::UnknownAction (No action responded to show. Actions: ):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#show (for 127.0.0.1 at 2010-04-10 11:04:37) [GET]
-  Parameters: {"id"=>"fred"}
-
-ActionController::UnknownAction (No action responded to show. Actions: ):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#fred (for 127.0.0.1 at 2010-04-10 11:15:15) [GET]
-Rendering template within layouts/application
-Rendering tweets/fred
-Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/tweets/fred]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:15:21) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:15:21) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:15:21) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#fred (for 127.0.0.1 at 2010-04-10 11:26:52) [GET]
-Rendering template within layouts/application
-Rendering tweets/fred
-Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/tweets/fred]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:26:55) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:26:57) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:26:57) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:26:57) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:27:33) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:27:35) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:27:37) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:27:37) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:27:37) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:28:22) [GET]
-  Parameters: {"since_id"=>"0", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:28:27) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:28:29) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:28:29) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:28:29) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:29:07) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:09) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:09) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:09) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:29:41) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:43) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:43) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:29:43) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:30:28) [GET]
-  Parameters: {"since_id"=>"0", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:31:38) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:31:44) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:31:45) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:31:45) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:32:02) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:32:04) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:32:04) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:32:04) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:32:49) [GET]
-  Parameters: {"since_id"=>"0", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:34:30) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 57ms (View: 56, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:34:33) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:34:33) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:34:33) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:35:18) [GET]
-  Parameters: {"since_id"=>"0", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:35:39) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Completed in 3ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:35:42) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:35:42) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:35:42) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:36:06) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (undefined local variable or method `user' for #<ActionView::Base:0x10060d190>) on line #6 of app/views/tweets/_tweet.html.erb:
-3:  <span class="thumb vcard author"><a href="https://twitter.com/i_chris_jacob" class="tweet-url profile-pic url"><img alt="i_chris_jacob"
-4: class="photo fn" height="48" src="https://s3.amazonaws.com/twitter_production/profile_images/68676297/n1114692106_30017645_622_normal.jpg"
-5: width="48" /></a></span> <span class="status-body"> <span class="status-content"> <strong><a href="https://twitter.com/i_chris_jacob"
-6: class="tweet-url screen-name"><%= user %></a></strong>
-7: 
-8:  <span class="actions"><div> <a id="status_star_11909747116" class="fav-action non-fav" title="favorite this tweet">&nbsp;&nbsp;</a>
-9: </div></span> <span class="entry-content"><a href="http://www.heroku.com" class="tweet-url web" rel="nofollow"
-
-    app/views/tweets/_tweet.html.erb:6
-    app/views/tweets/index.html.erb:69
-    app/views/tweets/index.html.erb:68:in `times'
-    app/views/tweets/index.html.erb:68
-
-Rendered rescues/_trace (66.5ms)
-Rendered rescues/_request_and_response (1.4ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:37:00) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.8ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:37:02) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:37:02) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:37:02) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:37:45) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (undefined local variable or method `user' for #<ActionView::Base:0x1023a0950>) on line #6 of app/views/tweets/_tweet.html.erb:
-3:  <span class="thumb vcard author"><a href="https://twitter.com/i_chris_jacob" class="tweet-url profile-pic url"><img alt="i_chris_jacob"
-4: class="photo fn" height="48" src="https://s3.amazonaws.com/twitter_production/profile_images/68676297/n1114692106_30017645_622_normal.jpg"
-5: width="48" /></a></span> <span class="status-body"> <span class="status-content"> <strong><a href="https://twitter.com/i_chris_jacob"
-6: class="tweet-url screen-name"><%= user %></a></strong>
-7: 
-8:  <span class="actions"><div> <a id="status_star_11909747116" class="fav-action non-fav" title="favorite this tweet">&nbsp;&nbsp;</a>
-9: </div></span> <span class="entry-content"><a href="http://www.heroku.com" class="tweet-url web" rel="nofollow"
-
-    app/views/tweets/_tweet.html.erb:6
-    app/views/tweets/index.html.erb:69
-    app/views/tweets/index.html.erb:68:in `times'
-    app/views/tweets/index.html.erb:68
-
-Rendered rescues/_trace (62.7ms)
-Rendered rescues/_request_and_response (0.4ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 11:38:34) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.0ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:38:36) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:38:36) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:38:36) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 11:39:21) [GET]
-  Parameters: {"since_id"=>"11909747116", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 03:05:56', '2010-04-10 03:05:56', NULL, NULL)[0m
-  [4;36;1mTweet Create (0.7ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 03:07:34', '2010-04-10 03:07:34', 'Tweet Tweet', 'kev')[0m
-  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-  [4;36;1mTweet Load (0.5ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:21:38) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.3ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 9ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/tweets]
 
+ActionView::TemplateError (Missing template tweets/_nav.erb in view path app/views) on line #14 of app/views/layouts/application.html.erb:
+11:   <div id="wrap">
+12:     <div id="header">
+13:       <h1><a href="/">Twitter Clone</a></h1>
+14: <%= render :partial => 'nav' %>
+15:     </div>
+16:     <div id="content">
+17:       <div id="main">
 
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:21:38) [GET]
+    app/views/layouts/application.html.erb:14
 
-ActionController::RoutingError (No route matches "/twitter_files/iA_logo_construction_ORN1-1_normal.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:21:48) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:21:48) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:21:48) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:22:33) [GET]
-  Parameters: {"since_id"=>"11907826653", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:23:55) [GET]
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (undefined method `user' for nil:NilClass) on line #17 of app/views/tweets/_tweet.html.erb:
-14:     <SPAN class="status-content">
-15:       <STRONG>
-16:         <A href="http://twitter.com/iA" class="tweet-url screen-name">
-17:           <%= tweet.user %>
-18:         </A>
-19:       </STRONG>
-20:       <SPAN class="actions">
-
-    app/views/tweets/_tweet.html.erb:17
-    app/views/tweets/index.html.erb:70
-    app/views/tweets/index.html.erb:68:in `times'
-    app/views/tweets/index.html.erb:68
-
-Rendered rescues/_trace (62.7ms)
+Rendered rescues/_trace (52.8ms)
 Rendered rescues/_request_and_response (0.3ms)
 Rendering rescues/layout (internal_server_error)
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:29:58) [GET]
-  [4;35;1mTweet Load (0.7ms)[0m   [0mSELECT * FROM "tweets" [0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:11:43) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
 
-ActionView::TemplateError (undefined local variable or method `tweets' for #<ActionView::Base:0x1010cedb8>) on line #68 of app/views/tweets/index.html.erb:
-65: id="new_results_notification"><a accesskey="n" class="minor-notification" href="/" id="results_update" style="display:none;"></a></div>
-66: 
-67:  <ol id='timeline' class='statuses'>
-68: 	<%= render tweets %>
-69: </ol>
-70: 
-71: 
+ActionView::TemplateError (Missing template tweets/_nav.erb in view path app/views) on line #14 of app/views/layouts/application.html.erb:
+11:   <div id="wrap">
+12:     <div id="header">
+13:       <h1><a href="/">Twitter Clone</a></h1>
+14: <%= render :partial => 'nav' %>
+15:     </div>
+16:     <div id="content">
+17:       <div id="main">
 
-    app/views/tweets/index.html.erb:68
+    app/views/layouts/application.html.erb:14
 
-Rendered rescues/_trace (115.0ms)
+Rendered rescues/_trace (53.8ms)
 Rendered rescues/_request_and_response (0.3ms)
 Rendering rescues/layout (internal_server_error)
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:30:26) [GET]
-  [4;36;1mTweet Load (0.7ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (3.7ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 20ms (View: 16, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:30:27) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_files/iA_logo_construction_ORN1-1_normal.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:30:30) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:30:30) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:30:30) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-  [4;35;1mTweet Load (0.5ms)[0m   [0mSELECT * FROM "tweets" [0m
-  [4;36;1mTweet Update (0.5ms)[0m   [0;1mUPDATE "tweets" SET "updated_at" = '2010-04-10 03:31:14', "message" = 'This is a tweet' WHERE "id" = 1[0m
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:31:15) [GET]
-  Parameters: {"since_id"=>"11907826653", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:31:19) [GET]
-  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.8ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 8ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:31:19) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_files/iA_logo_construction_ORN1-1_normal.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:31:20) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:31:20) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:31:20) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:32:05) [GET]
-  Parameters: {"since_id"=>"11907826653", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-  [4;35;1mTweet Load (0.5ms)[0m   [0mSELECT * FROM "tweets" [0m
-  [4;36;1mTweet Update (168.7ms)[0m   [0;1mUPDATE "tweets" SET "updated_at" = '2010-04-10 03:32:28', "user" = 'fred' WHERE "id" = 1[0m
-  [4;35;1mTweet Load (0.5ms)[0m   [0mSELECT * FROM "tweets" [0m
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:32:33) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.9ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 9ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:32:34) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_files/iA_logo_construction_ORN1-1_normal.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:32:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:32:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:32:35) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:33:20) [GET]
-  Parameters: {"since_id"=>"11907826653", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:48:51) [GET]
-  [4;35;1mTweet Load (0.7ms)[0m   [0mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (2.8ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 17ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:48:52) [GET]
-
-ActionController::RoutingError (No route matches "/twitter_files/iA_logo_construction_ORN1-1_normal.jpg" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:48:55) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_inner.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:48:55) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/hovercard_content.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:48:55) [GET]
-
-ActionController::RoutingError (No route matches "/mustaches/action_menu.html" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:49:39) [GET]
-  Parameters: {"since_id"=>"11907826653", "authenticity_token"=>"75bd655c6284c89524d2de017670ec535d97a1f5", "refresh"=>"true"}
-
-ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 13:57:32) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (2.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 15ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 13:57:32) [GET]
-
-ActionController::RoutingError (No route matches "/stylesheets/main.css" with {:method=>:get}):
-  
-
-Rendering rescues/layout (not_found)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:02:30) [GET]
-  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (2.4ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.4ms)
-Rendered tweets/_tweet (0.1ms)
-ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
-/Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:24: syntax error, unexpected '=', expecting kEND
-;  = yield ; @output_buffer.concat...
-    ^
-Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
-            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n  <title>Twitter</title>\n  <link rel=\"stylesheet\" href=\"/stylesheets/main.css\" type=\"text/css\" media=\"screen\" title=\"no title\" charset=\"utf-8\" />\n</head>\n<body>\n  <div id=\"wrap\">\n    <div id=\"header\">\n      <h1><a href=\"/\">Twitter Clone</a></h1>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"#\">Search</a></li>\n        <li><a href=\"#\">Register</a></li>\n        <li><a href=\"#\">Login</a></li>\n        <li><a href=\"#\">Is this a scam?</a></li>\n      </ul>\n    </div>\n    <div id=\"content\">\n      <div id=\"main\">\n        "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;  = yield ; @output_buffer.concat "\n      </div>\n      <div id=\"sidebar\">\n        sidebar aoetuha soneu  asoteu atoeuh aoeu\n      </div>\n    </div>\n    <div id=\"footer\">\n      Ze footer\n    </div>\n  </div>\n</body>\n</html>\n"
-
-
-
-
-
-
-
-
-
-
-
-; @output_buffer
-          ensure
-            self.output_buffer = old_output_buffer
-          end
-Backtrace: /Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:39:in `compile!'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
-script/server:3
-
-ActionView::TemplateError (compile error
-/Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:24: syntax error, unexpected '=', expecting kEND
-;  = yield ; @output_buffer.concat...
-    ^) on line #24 of app/views/layouts/application.html.erb:
-21:     </div>
-22:     <div id="content">
-23:       <div id="main">
-24:         <% = yield %>
-25:       </div>
-26:       <div id="sidebar">
-27:         sidebar aoetuha soneu  asoteu atoeuh aoeu
-
-    app/views/layouts/application.html.erb:39:in `compile!'
-
-Rendered rescues/_trace (49.3ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:06:00) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.8ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
-/Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:24: syntax error, unexpected '=', expecting kEND
-;  = yield ; @output_buffer.concat...
-    ^
-Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
-            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n  <title>Twitter</title>\n  <link rel=\"stylesheet\" href=\"/stylesheets/main.css\" type=\"text/css\" media=\"screen\" title=\"no title\" charset=\"utf-8\" />\n</head>\n<body>\n  <div id=\"wrap\">\n    <div id=\"header\">\n      <h1><a href=\"/\">Twitter Clone</a></h1>\n      <ul>\n        <li><a href=\"/\">Home</a></li>\n        <li><a href=\"#\">Search</a></li>\n        <li><a href=\"#\">Register</a></li>\n        <li><a href=\"#\">Login</a></li>\n        <li><a href=\"#\">Is this a scam?</a></li>\n      </ul>\n    </div>\n    <div id=\"content\">\n      <div id=\"main\">\n        "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;  = yield ; @output_buffer.concat "\n      </div>\n      <div id=\"sidebar\">\n        sidebar aoetuha soneu  asoteu atoeuh aoeu\n      </div>\n    </div>\n    <div id=\"footer\">\n      Ze footer\n    </div>\n  </div>\n</body>\n</html>\n"
-
-
-
-
-
-
-
-
-
-
-
-; @output_buffer
-          ensure
-            self.output_buffer = old_output_buffer
-          end
-Backtrace: /Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:39:in `compile!'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
-/Users/kev/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
-/Users/kev/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
-/Users/kev/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
-/Users/kev/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
-/Users/kev/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
-script/server:3
-
-ActionView::TemplateError (compile error
-/Users/kev/code/mocra/kev-twitter/app/views/layouts/application.html.erb:24: syntax error, unexpected '=', expecting kEND
-;  = yield ; @output_buffer.concat...
-    ^) on line #24 of app/views/layouts/application.html.erb:
-21:     </div>
-22:     <div id="content">
-23:       <div id="main">
-24:         <% = yield %>
-25:       </div>
-26:       <div id="sidebar">
-27:         sidebar aoetuha soneu  asoteu atoeuh aoeu
-
-    app/views/layouts/application.html.erb:39:in `compile!'
-
-Rendered rescues/_trace (111.9ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:06:38) [GET]
-  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.8ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 13ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:48:34) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (1.8ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 12ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:52:42) [GET]
-  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" [0m
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/tweets/index.html.erb:
-1: <% form_for @tweet do |f| -%>
-2:   <%= f.label :message, "What's happening" %>
-3:   <%= f.text_field :message %>
-4:   <%= f.label :user, "User" %>	
-
-    app/views/tweets/index.html.erb:1
-
-Rendered rescues/_trace (113.5ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:53:12) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:13:43) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 28ms (View: 23, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.5ms)
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 14:53:19) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"kev", "message"=>"lots"}}
-  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 04:53:19', '2010-04-10 04:53:19', 'lots', 'kev')[0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:15:53) [GET]
+  [4;36;1mTweet Load (1.1ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.8ms)
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:17:02) [GET]
+  [4;35;1mTweet Load (1.1ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.8ms)
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:21:50) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.8ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (1.0ms)
+Completed in 53ms (View: 46, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:21:52) [GET]
 Redirected to http://0.0.0.0:3000/tweets
-Completed in 12ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:53:19) [GET]
-  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:21:52) [GET]
+  [4;35;1mTweet Load (1.1ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 13ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:54:31) [GET]
-
-ArgumentError (Unknown key(s): sort):
-  app/controllers/tweets_controller.rb:4:in `index'
-
-Rendered rescues/_trace (44.3ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:54:40) [GET]
-
-ArgumentError (Unknown key(s): sort_by):
-  app/controllers/tweets_controller.rb:4:in `index'
-
-Rendered rescues/_trace (43.3ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:56:48) [GET]
-  [4;35;1mTweet Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: created_by: SELECT * FROM "tweets" ORDER BY created_by desc[0m
-
-ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: created_by: SELECT * FROM "tweets"  ORDER BY created_by desc):
-  app/controllers/tweets_controller.rb:4:in `index'
-
-Rendered rescues/_trace (124.8ms)
-Rendered rescues/_request_and_response (0.4ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:56:59) [GET]
-  [4;36;1mTweet Load (0.7ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 14ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 14:57:07) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"fred", "message"=>"fred"}}
-  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 04:57:07', '2010-04-10 04:57:07', 'fred', 'fred')[0m
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:22:03) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"K2", "message"=>"wowzer"}}
+  [4;36;1mTweet Create (0.5ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 06:22:03', '2010-04-10 06:22:03', 'wowzer', 'K2')[0m
 Redirected to http://0.0.0.0:3000/tweets
 Completed in 11ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:57:07) [GET]
-  [4;36;1mTweet Load (0.7ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:03) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 13ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:12:35) [GET]
-  [4;35;1mTweet Load (0.7ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:22:09) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"message"=>""}}
+  [4;36;1mTweet Load (1.0ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 18ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:12:38) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
-  [4;36;1mTweet Load (0.5ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 15ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:17:23) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
-  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (`@#<Tweet:0x104119888>' is not allowed as an instance variable name) on line #1 of app/views/tweets/index.html.erb:
-1: <%= error_messages_for @tweet%>
-2: 
-3: <% form_for @tweet do |f| -%>
-4:   <%= f.label :message, "What's happening" %>
-
-    app/views/tweets/index.html.erb:1
-    app/controllers/tweets_controller.rb:14:in `create'
-
-Rendered rescues/_trace (53.2ms)
-Rendered rescues/_request_and_response (0.4ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:17:28) [GET]
-  [4;36;1mTweet Load (0.8ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
-
-ActionView::TemplateError (`@#<Tweet:0x10427cd38>' is not allowed as an instance variable name) on line #1 of app/views/tweets/index.html.erb:
-1: <%= error_messages_for @tweet%>
-2: 
-3: <% form_for @tweet do |f| -%>
-4:   <%= f.label :message, "What's happening" %>
-
-    app/views/tweets/index.html.erb:1
-
-Rendered rescues/_trace (128.4ms)
-Rendered rescues/_request_and_response (0.3ms)
-Rendering rescues/layout (internal_server_error)
-
-
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:18:02) [GET]
-  [4;35;1mTweet Load (0.9ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 19ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered layouts/_nav (0.2ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:05) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
-  [4;36;1mTweet Load (0.5ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 23ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:25) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>"asdf"}}
-  [4;35;1mTweet Load (0.5ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
-Rendering template within layouts/application
-Rendering tweets/index
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Rendered tweets/_tweet (0.1ms)
-Completed in 22ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/tweets]
-
-
-Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 15:18:28) [POST]
-  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"asdf", "message"=>"asdf"}}
-  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 05:18:28', '2010-04-10 05:18:28', 'asdf', 'asdf')[0m
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:22:13) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"message"=>"rubbish"}}
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 06:22:13', '2010-04-10 06:22:13', 'rubbish', 'K2')[0m
 Redirected to http://0.0.0.0:3000/tweets
 Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:18:28) [GET]
-  [4;35;1mTweet Load (0.8ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:13) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
@@ -4225,11 +1795,19 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 14ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:25:10) [GET]
-  [4;36;1mTweet Load (0.8ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:19) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
@@ -4237,11 +1815,19 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 86ms (View: 79, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
 
 
-Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 15:26:27) [GET]
-  [4;35;1mTweet Load (0.8ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:20) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
 Rendering template within layouts/application
 Rendering tweets/index
 Rendered tweets/_tweet (0.1ms)
@@ -4249,4 +1835,78 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
-Completed in 15ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:21) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:22:22) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:22:22) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:22:23) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"", "message"=>""}}
+  [4;35;1mTweet Load (1.0ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/tweets]

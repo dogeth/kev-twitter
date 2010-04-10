@@ -1,17 +1,23 @@
 class TweetsController < ApplicationController
+  include AuthenticationHelper 
   
   def index
     @tweets = Tweet.all(:order => "created_at desc")
-    @tweet = Tweet.new(:user => 'Kev')
+    @tweet = Tweet.new
   end
   
   def create
     @tweet = Tweet.new(params[:tweet])
+    session[:user] = params[:tweet][:user] unless params[:tweet][:user].blank?
+    @tweet.user = current_user || 'unknown'
     if @tweet.save
+      flash[:notice] = "Thanks for tweeting"
       redirect_to tweets_path
     else
+      flash.now[:error] = "Thanks for trying!"
       @tweets = Tweet.all(:order => "created_at desc")
       render :action => 'index'
     end
   end
+
 end
