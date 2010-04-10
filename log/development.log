@@ -3999,3 +3999,115 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Completed in 13ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:48:34) [GET]
+  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.8ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:52:42) [GET]
+  [4;35;1mTweet Load (0.6ms)[0m   [0mSELECT * FROM "tweets" [0m
+Rendering template within layouts/application
+Rendering tweets/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/tweets/index.html.erb:
+1: <% form_for @tweet do |f| -%>
+2:   <%= f.label :message, "What's happening" %>
+3:   <%= f.text_field :message %>
+4:   <%= f.label :user, "User" %>	
+
+    app/views/tweets/index.html.erb:1
+
+Rendered rescues/_trace (113.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:53:12) [GET]
+  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 28ms (View: 23, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 14:53:19) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"kev", "message"=>"lots"}}
+  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 04:53:19', '2010-04-10 04:53:19', 'lots', 'kev')[0m
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 12ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:53:19) [GET]
+  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" [0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:54:31) [GET]
+
+ArgumentError (Unknown key(s): sort):
+  app/controllers/tweets_controller.rb:4:in `index'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:54:40) [GET]
+
+ArgumentError (Unknown key(s): sort_by):
+  app/controllers/tweets_controller.rb:4:in `index'
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:56:48) [GET]
+  [4;35;1mTweet Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: created_by: SELECT * FROM "tweets" ORDER BY created_by desc[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: created_by: SELECT * FROM "tweets"  ORDER BY created_by desc):
+  app/controllers/tweets_controller.rb:4:in `index'
+
+Rendered rescues/_trace (124.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:56:59) [GET]
+  [4;36;1mTweet Load (0.7ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 14:57:07) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"user"=>"fred", "message"=>"fred"}}
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 04:57:07', '2010-04-10 04:57:07', 'fred', 'fred')[0m
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 11ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 14:57:07) [GET]
+  [4;36;1mTweet Load (0.7ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/tweets]
