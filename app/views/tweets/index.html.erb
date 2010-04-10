@@ -1,15 +1,12 @@
 <%= error_messages_for :tweet %>
 
+<% if current_user%>
 <% form_for @tweet do |f| -%>
-  <%= f.label :message, "What's happening" %>
+  <%= f.label :message, "What's happening #{h current_user}?" %>
   <%= f.text_field :message %>
-  <% if current_user%>
-by <%= h current_user %>
-  <% else current_user %>
-  	<%= f.text_field :user %>
-  <% end%>
   <%= f.submit "Tweet", :disable_with => 'Tweeting...' %>
 <% end -%>
+<% end%>
 
 <ol class="tweets">
 	<%= render @tweets %>

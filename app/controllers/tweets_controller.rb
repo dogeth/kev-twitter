@@ -8,7 +8,6 @@ class TweetsController < ApplicationController
   
   def create
     @tweet = Tweet.new(params[:tweet])
-    session[:user] = params[:tweet][:user] unless params[:tweet][:user].blank?
     @tweet.user = current_user || 'unknown'
     if @tweet.save
       flash[:notice] = "Thanks for tweeting"

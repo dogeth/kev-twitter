@@ -1910,3 +1910,756 @@ Rendered tweets/_tweet (0.1ms)
 Rendered tweets/_tweet (0.1ms)
 Rendered layouts/_nav (0.1ms)
 Completed in 23ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:27:35) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #24 of app/views/layouts/_nav.html.erb:
+21: 		<a href="#">Login</a>
+22: 	</li>
+23: 	<li>
+24: 		<% form_for do |f| -%>
+25: 		  <%= f.label :user, "User" %>
+26: 		  <%= f.text_field :user %>
+27: 		  <%= f.submit "Login" %>
+
+    app/views/layouts/_nav.html.erb:24:in `form_for'
+    app/views/layouts/_nav.html.erb:24
+    app/views/layouts/application.html.erb:14
+
+Rendered rescues/_trace (65.2ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:30:27) [GET]
+  [4;35;1mTweet Load (1.4ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.9ms)
+Completed in 97ms (View: 90, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:30:36) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.9ms)
+Completed in 22ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:32:06) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.9ms)
+Completed in 22ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing ApplicationController#login (for 127.0.0.1 at 2010-04-10 16:32:11) [POST]
+  Parameters: {"session"=>{"user"=>"fred"}, "login"=>"Login"}
+
+SyntaxError (/Users/kev/code/mocra/kev-twitter/app/controllers/session_controller.rb:11: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (38.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:32:54) [POST]
+  Parameters: {"session"=>{"user"=>"fred"}, "login"=>"Login"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 16:33:03) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:33:12) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:33:16) [POST]
+  Parameters: {"session"=>{"user"=>"keev"}, "login"=>"Login"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:33:21) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:33:33) [POST]
+  Parameters: {"session"=>{"user"=>"keev"}, "login"=>"Login"}
+
+NameError (undefined local variable or method `parms' for #<SessionController:0x104419768>):
+  app/controllers/session_controller.rb:9:in `login'
+
+Rendered rescues/_trace (41.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:34:01) [POST]
+  Parameters: {"session"=>{"user"=>"keev"}, "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:34:01) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:34:09) [POST]
+  Parameters: {"session"=>{"user"=>"stimpy"}, "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:34:09) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:34:30) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:34:33) [POST]
+  Parameters: {"session"=>{"user"=>"asdf"}, "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:34:33) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:34:36) [POST]
+  Parameters: {"session"=>{"user"=>"asdf"}, "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:34:36) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:35:16) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.9ms)
+Completed in 86ms (View: 80, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:35:21) [POST]
+  Parameters: {"user"=>"ji", "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:35:21) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:35:24) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:35:24) [GET]
+  [4;35;1mTweet Load (1.2ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:35:29) [POST]
+  Parameters: {"user"=>"kev", "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 3ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:35:29) [GET]
+  [4;36;1mTweet Load (1.2ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:35:33) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:35:33) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 85ms (View: 79, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:36:25) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.0ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:36:31) [POST]
+  Parameters: {"user"=>"K", "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:36:31) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:36:38) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"message"=>"not much"}}
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 06:36:38', '2010-04-10 06:36:38', 'not much', 'K')[0m
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:36:38) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:37:38) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.2ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 87ms (View: 80, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:37:44) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:37:44) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:37:57) [POST]
+  Parameters: {"user"=>"<p>stimpy</p>", "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:37:57) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:38:16) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 21ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:38:21) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.2ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.2ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 88ms (View: 81, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:38:26) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:38:26) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.0ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:39:46) [GET]
+  [4;36;1mTweet Load (1.3ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.0ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#login (for 127.0.0.1 at 2010-04-10 16:39:53) [POST]
+  Parameters: {"user"=>"Stimpy", "login"=>"Login"}
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/login]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:39:53) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2010-04-10 16:39:59) [POST]
+  Parameters: {"commit"=>"Tweet", "authenticity_token"=>"kWD8qzloOMYxCuAiRPBkyz4cLiqMZkb8sjYyYOBavpQ=", "tweet"=>{"message"=>"everything"}}
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "message", "user") VALUES('2010-04-10 06:39:59', '2010-04-10 06:39:59', 'everything', 'Stimpy')[0m
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/tweets]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:39:59) [GET]
+  [4;35;1mTweet Load (1.3ms)[0m   [0mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.2ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.2ms)
+Completed in 82ms (View: 75, DB: 1) | 200 OK [http://0.0.0.0/tweets]
+
+
+Processing SessionController#logout (for 127.0.0.1 at 2010-04-10 16:40:03) [GET]
+Redirected to http://0.0.0.0:3000/tweets
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/session/logout]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-04-10 16:40:03) [GET]
+  [4;36;1mTweet Load (1.4ms)[0m   [0;1mSELECT * FROM "tweets" ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering tweets/index
+Rendered tweets/_tweet (1.0ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered tweets/_tweet (0.1ms)
+Rendered layouts/_nav (0.1ms)
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/tweets]
